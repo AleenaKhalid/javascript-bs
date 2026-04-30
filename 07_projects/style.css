@@ -1,0 +1,74 @@
+/* 1. Basic Page Setup */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Smooth transition when the color changes */
+  transition: background-color 0.5s ease; 
+}
+
+/* 2. Navigation Bar */
+nav {
+  background-color: #eeeeee;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid #777;
+  padding: 5px 15px;
+  background-color: white;
+}
+
+/* 3. Main Content Container */
+.canvas {
+  text-align: center;
+  margin-top: 50px;
+  max-width: 500px;
+}
+
+/* 4. The Color Buttons (Spans) */
+.button {
+  width: 100px;
+  height: 100px;
+  display: inline-block; /* Essential to give spans width/height */
+  border: 2px solid black;
+  /* margin: 10px; */
+  cursor: pointer;
+}
+
+/* 5. Specific Colors */
+#grey {
+  background-color: grey;
+}
+#white {
+  background-color: white;
+}
+#blue {
+  background-color: blue;
+}
+#yellow {
+  background-color: yellow;
+}
+
+/* 6. Text Styling */
+h1 {
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-top: 30px;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+h2 span {
+  display: block; /* Puts the second half of the text on a new line */
+}
